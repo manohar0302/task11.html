@@ -1,0 +1,50 @@
+body {
+     font-family: Arial, sans-serif;
+    margin: 0;
+     padding: 0;
+    background: linear-gradient(109.5deg, rgb(212, 168, 6) 9.4%, rgb(216, 7, 175) 78.4%);
+    }
+ .container {
+    max-width: 600px;
+    margin: 30px auto;
+     background: linear-gradient(109.5deg, rgb(180, 249, 7) 9.4%, rgb(86, 255, 248) 78.4%);
+     padding: 20px;
+     border-radius: 20px;
+     box-shadow: 0 0 10px rgba(4, 159, 248, 0.959);
+    }
+ h1 {
+     text-align: center;
+    }
+ .tracker {
+     display: flex;
+     justify-content: space-between;
+    align-items: center;
+     padding: 20px;
+     border-bottom: 2.5px solid black;
+    }
+ .tracker:last-child {
+    border-bottom: none;
+    }
+ .tracker input {
+     width: 100px;
+     padding: 5px;
+    border: 1px solid #ccc;
+     border-radius: 5px;
+    text-align: center;
+    }
+ .tracker label {
+     margin-right: 10px;
+    }
+ button {
+     display: block;
+    width: 100%;
+     padding: 10px;
+     background-color: black;
+     color: white;
+    border: none;
+     border-radius: 5px;
+     cursor: pointer;
+      }
+  button:hover {
+            background-color: blue;
+    }
